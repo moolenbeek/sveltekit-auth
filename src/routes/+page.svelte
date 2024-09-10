@@ -3,3 +3,5 @@
 	export let data: PageData;
 	console.log(data);
 </script>
+
+<h2>Home</h2>
