@@ -20,5 +20,5 @@
 			</form>
 		</ul>
 	</nav>
+	<slot />
 </div>
-<slot />
