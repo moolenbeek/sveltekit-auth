@@ -12,7 +12,7 @@ git clone https://github.com/moolenbeek/sveltekit-auth.git sveltekit-auth
 cd sveltekit-auth
 ```
 
-If you would like to remove existing `.git` repo and re-initialize locally:
+If you would like to remove existing `.git` repository and re-initialize Git locally:
 
 ```bash
 rm -rf .git
@@ -24,8 +24,6 @@ Once you've cloned the project, install dependencies NPM:
 ```bash
 npm install # or `npm i`
 ```
-
-To create a production version of your app:
 
 To run the development server:
 
