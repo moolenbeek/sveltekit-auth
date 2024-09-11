@@ -25,6 +25,18 @@ Once you've cloned the project, install dependencies with NPM:
 npm install # or `npm i`
 ```
 
+Add the following to your `.env`
+
+```bash
+DATABASE_URL="file:./dev.db"
+```
+
+To migrate database
+
+```bash
+npx prisma migrate dev --name init
+```
+
 To run the development server:
 
 ```bash
