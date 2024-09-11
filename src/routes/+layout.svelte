@@ -2,7 +2,6 @@
 	import "@picocss/pico";
 	import type { PageData } from "./$types";
 	export let data: PageData;
-	console.log(data);
 </script>
 
 <div class="container">
@@ -14,9 +13,15 @@
 		</ul>
 		<ul>
 			<form method="POST">
-				<li><a href="/">Home</a></li>
-				<li><a href="/login">Login</a></li>
-				<li><a href="/register">Register</a></li>
+				{#if !data.user}
+					<li><a href="/login">Login</a></li>
+					<li><a href="/register">Register</a></li>
+				{:else}
+					<li><a href="/">{data.user.name}</a></li>
+					<li>
+						<button formaction="/logout" class="outline" type="submit">Logout</button>
+					</li>
+				{/if}
 			</form>
 		</ul>
 	</nav>
