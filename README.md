@@ -19,7 +19,7 @@ rm -rf .git
 git init
 ```
 
-Once you've cloned the project, install dependencies NPM:
+Once you've cloned the project, install dependencies with NPM:
 
 ```bash
 npm install # or `npm i`
