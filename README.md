@@ -31,13 +31,13 @@ Add the following to your `.env`
 DATABASE_URL="file:./dev.db"
 ```
 
-To migrate database
+Migrate database
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-To run the development server:
+Start development server:
 
 ```bash
 npm run dev
