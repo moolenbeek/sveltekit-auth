@@ -1,4 +1,4 @@
-# sveltekit-auth
+# sveltekit-auth-prisma
 
 Sveltekit user auth template using lucia, prisma, and pico css
 [TypeScript](https://www.typescriptlang.org/), [Svelte](https://svelte.dev), [SvelteKit](https://kit.svelte.dev), [Lucia](https://lucia-auth.com/), [Prisma](https://www.prisma.io/), [SQLite](https://www.sqlite.org/), and [Pico CSS](https://picocss.com/).
